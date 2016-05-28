@@ -1,0 +1,78 @@
+.cheked{
+	text-decoration: line-through;
+	opacity: 0.5;
+}
+
+.delbutton{
+	float: right;
+	color: #525252;
+	display: none;
+	cursor: pointer;
+	padding: 0 7px;
+	background-color: #FF6276;
+}
+
+li:hover div{
+	display: inline-block;
+}
+
+li:hover{
+	background-color: #EDF4F7;
+	line-height: 35px;
+}
+
+.txtinput{
+	display: block;
+	width: 75%;
+	margin: 15px auto;
+	padding: 4px;
+	font-size: 16px;
+}
+
+.subtxtinput{
+	font-size: 15px;
+	margin-left: 15px;
+}
+
+.remall{
+	display: inline-block;
+	float: right;
+	color: #525252;
+	cursor: pointer;
+	background-color: #FF6276;
+	font-weight: bold;
+	padding:0 5px;
+	border-radius: 5px;
+}
+
+.Application{
+	width: 45%;
+	margin: 0 auto;
+	font: 14pt/20pt sans-serif;
+	font-family: Times, "Times New Roman", Georgia, serif;
+	color: #525252;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	min-height: 500px;
+	padding: 10px;
+	-webkit-user-select: none;  
+  	-moz-user-select: none;     
+  	-ms-user-select: none;      
+  	 user-select: none;          
+}
+
+.goodsList{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+label{
+	color: #A1A4A5;
+}
+
+.goodsList span{
+	margin-left: 15px;
+}
+
+.goodsList li{
+	border-bottom: solid 1px #A1A4A5;
+}
